@@ -1,0 +1,116 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1f3241;
+  font-family: "Asap", sans-serif;
+}
+
+.header__inner {
+  background: #f5f5f5;
+  padding: 25px 0;
+}
+
+.header__title {
+  color: #1f3241;
+  text-align: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.rules__inner {
+  color: #f5f5f5;
+  padding: 150px 0;
+}
+
+.rules__list {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.rules__item {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.play__inner {
+  color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.play__title {
+  padding: 15px 0;
+}
+
+.play__score-board {
+  position: relative;
+  width: 350px;
+  font-size: 26px;
+  border-radius: 5px;
+  margin: 35px auto;
+  padding: 25px 15px;
+}
+
+#user-label {
+  position: absolute;
+  top: -15px;
+  left: 100px;
+}
+
+#computer-label {
+  position: absolute;
+  top: -15px;
+  left: 200px;
+}
+
+.play__results {
+  font-size: 24px;
+}
+
+.play__choise {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.choice__item {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.choice__item:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+}
+
+.play__btn-reset {
+  background-color: #1f3241;
+  color: #f5f5f5;
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.play__btn-reset:hover {
+  border: 2px solid #f5f5f5;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
