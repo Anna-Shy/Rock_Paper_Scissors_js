@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+  <link href="https://fonts.googleapis.com/css2?family=Asap&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link href="scss/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+
+      <div class="header__inner">
+        <h1 class="header__title">Rock Paper Scissors</h1>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="rules">
+      <div class="container">
+
+        <div class="rules__inner">
+          <h2 class="rules__title">Rules</h2>
+
+          <ul class="rules__list">
+            <li class="rules__item">Scissors beats a paper</li>
+            <li class="rules__item">Paper beats rock</li>
+            <li class="rules__item">Rock beats scissors</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="play">
+      <div class="container">
+
+        <div class="play__inner">
+          <h2 class="play__title">Let's play!</h2>
+
+          <div class="play__score-board">
+            <p id="user-label" class="play__badge">user</p>
+            <p id="computer-label" class="play__badge">bot</p>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+          </div>
+
+          <div class="play__results">
+            <p>Paper vs. Rock, You've WON!</p>
+          </div>
+
+          <div class="play__choise">
+            <div class="choice__item" id="rock">
+              <p class="item__text">Rock</p>
+            </div>
+
+            <div class="choice__item" id="paper">
+              <p class="item__text">Paper</p>
+            </div>
+
+            <div class="choice__item" id="scissors">
+              <p class="item__text">Scissors</p>
+            </div>
+          </div>
+
+          <button class="play__btn-reset" value="reset">Reset</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/botChoice.js"></script>
+  <script type="module" src="js/gameLogic.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
